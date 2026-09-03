@@ -27,8 +27,15 @@ length = len(text)
 def rotate_word(text):
    return (text[1:length:1]) + (text[0:1:1])
 
-rotate_word(text)
+rotate_word(text)```
 
 Output:
 Enter a word:  Programming
 'rogrammingP'
+
+Examples:
+
+rotate_word("Python") ==> 'ythonP'
+rotate_word("logic") ==> 'ogicl'
+rotate_word("Code") ==> 'odeC'
+rotate_word("A") ==> 'A'
