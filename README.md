@@ -20,14 +20,14 @@ The following functions and methods were used in this problem:
 
 These were combined using the `+` operator to attach the initial letter to the tail of the remaining characters, forming the rotated output:
 
-```python
+```
 text = input("Enter a word: ")
 length = len(text)
 
 def rotate_word(text):
    return (text[1:length:1]) + (text[0:1:1])
 
-rotate_word(text) python```
+rotate_word(text) ```
 
 Output:
 Enter a word:  Programming
