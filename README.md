@@ -20,7 +20,7 @@ The following functions and methods were used in this problem:
 
 These were combined using the `+` operator to attach the initial letter to the tail of the remaining characters, forming the rotated output:
 
-```
+```python
 text = input("Enter a word: ")
 length = len(text)
 
