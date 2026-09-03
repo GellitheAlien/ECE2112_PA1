@@ -27,7 +27,7 @@ length = len(text)
 def rotate_word(text):
    return (text[1:length:1]) + (text[0:1:1])
 
-rotate_word(text) ```python
+rotate_word(text) python```
 
 Output:
 Enter a word:  Programming
